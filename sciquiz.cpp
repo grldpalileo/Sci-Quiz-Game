@@ -159,7 +159,7 @@ int main()
 			
 		else {
 			   //this will show if you got the wrong answer
-		       cout<<"\n\nWrong! The correct answer is A.Jupiter\n\nFifth in line from the Sun, Jupiter is, by far, the largest planet\nin the solar system – more than twice as massive as all the other planets combined."<<endl;
+		       cout<<"\n\nWrong! The correct answer is A.Jupiter\n\nFifth in line from the Sun, Jupiter is, by far, the largest planet\nin the solar system Â– more than twice as massive as all the other planets combined."<<endl;
 		       getch();
 		       break;
 			   }
@@ -500,7 +500,7 @@ int main()
 		       break;}
 
 		case 16: //sixteenth question in the Challenge round
-		cout<<"\n\n\n16. What is the name of NASA’s most famous space telescope? "<<endl;
+		cout<<"\n\n\n16. What is the name of NASAÂ’s most famous space telescope? "<<endl;
 		cout<<"\n\nA.Rossi X-ray Timing Explorer\t\tB.Astrosat\n\nC.Hubble Space Telescope\t\tD.Spitzer Space Telescope"<<endl;
 		cout<<"\n____________________________________________________________________________________________________________________________________________________________________________"<<endl;
 		if (toupper(getch())=='C')
